@@ -1,6 +1,7 @@
 const fs=require("fs");
 const path=require('path');
 
+//logging- keeps track of all functionality
 
 fs.writeFile(path.join(__dirname,"newfile.txt"),"this is a new file",
 (err)=>{
