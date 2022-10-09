@@ -8,7 +8,7 @@ fs.writeFile(path.join(__dirname),"newfile.txt"),"this is a new file , "
     if(err){
         throw err.name;
     }
-}
+})
 
 
 
